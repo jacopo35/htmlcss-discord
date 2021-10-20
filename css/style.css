@@ -126,15 +126,15 @@ a.btn.dark:focus {
 .float-right {
     float: left;
     width: calc(40% - 50px);
-    margin-left: 50px;
-    padding-right: 20px;
+    margin-left: 20px;
+    padding-right: 5em;
     margin-top: 80px;
 }
 
 .float-left {
     float: left;
     width: calc(60% - 70px);
-    margin-right: 70px;
+    margin-right: 1em;
 }
 
 .title {
@@ -160,7 +160,7 @@ a.btn.dark:focus {
     float: right;
     width: calc(40% - 50px);
     margin-left: 50px;
-    padding-right: 20px;
+    padding-right: 5em;
     margin-top: 80px;
 }
 
@@ -192,12 +192,20 @@ a.btn.dark:focus {
     background-repeat: no-repeat;
 }
 
+.center-title {
+     display:inline-block;
+     margin:0px auto;
+     text-align:center;
+     width: 65%;
+     margin-bottom: 2em;
+}
+
 .final-title {
      margin: 40px;
 }
 
 .jumbo-btn-two {
-    margin-left: 37em;
+    margin-left: 30em;
 }
 
 .btn-big-two {
@@ -209,7 +217,10 @@ a.btn.dark:focus {
     text-decoration: none;
     font-weight: bold;
     color: white;
+    text-align: center;
 }
+
+
 
 footer {
     background-color: #23272A;
