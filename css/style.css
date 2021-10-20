@@ -188,7 +188,7 @@ a.btn.dark:focus {
     background-size: contain;
     margin:0px auto;
     margin-left: 600px;
-    width: 45%;
+    width: 30%;
     background-repeat: no-repeat;
 }
 
@@ -209,5 +209,74 @@ a.btn.dark:focus {
     text-decoration: none;
     font-weight: bold;
     color: white;
+}
+
+footer {
+    background-color: #23272A;
+    padding: 100px 0px;
+    color: white;
+}
+.footer-container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.footer-container .first-row {
+    border-bottom: 1px solid #7289DA;
+    padding-bottom: 30px;
+}
+
+.footer-container .footer {   
+   float: left;
+}
+.footer.col-left {
+    width: 25%;
+}
+.footer.col-li {
+    width: calc(75% / 4);
+}
+.footer h2 {
+    color: #7289DA;
+    font-size: 2em;
+}
+.footer .language {
+    margin: 30px 0;
+}
+.footer .language img {
+    width: 8%;
+    vertical-align: middle;
+}
+.social > .fab {
+    display: inline-block;
+    font-size: 1.3em;
+    padding: 0 7px;
+}
+.footer > ul {
+    list-style-type: none;
+    padding-left: 30px;
+}
+.footer li {
+    padding-bottom: 10px;
+}
+
+.footer li:last-child {
+    padding-bottom: 0;
+}
+
+.footer li:first-child {
+    color: #7289DA;
+    font-weight: bold;
+}
+
+.footer-container > .second-row {
+    padding-top: 30px;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
 }
 
