@@ -145,7 +145,8 @@ a.btn.dark:focus {
 }
 
 .percent {
-    width: 70%;
+    width: 65%;
+    
 }
 
 .float-left-two {
@@ -173,3 +174,40 @@ a.btn.dark:focus {
     margin-top: 9em;
     padding: auto;
 }
+
+.percent-b {
+     display:block;
+     margin:0px auto;
+     text-align:center;
+     width: 65%;
+}
+
+.stars {
+    background-image: url(../img/stars.svg);
+    display:inline-block;
+    background-size: contain;
+    margin:0px auto;
+    margin-left: 600px;
+    width: 45%;
+    background-repeat: no-repeat;
+}
+
+.final-title {
+     margin: 40px;
+}
+
+.jumbo-btn-two {
+    margin-left: 37em;
+}
+
+.btn-big-two {
+    display: inline-block;
+    background-color: #8ea1e1 ;
+    border-radius: 2em;
+    padding: 1px 14px;
+    line-height: 2em;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
