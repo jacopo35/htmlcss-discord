@@ -21,6 +21,11 @@ header {
     background-size: cover;
 }
 
+main {
+    width: 100%;
+    margin: auto;
+}
+
 nav {
     width: 80%;
     margin: 0 auto;
@@ -112,7 +117,7 @@ a.btn.dark:focus {
     color: #265ee8;
 }
 
-.contaneir::after {
+.container::after {
     display: table;
     content: '';
     clear: both;
@@ -140,7 +145,7 @@ a.btn.dark:focus {
 }
 
 .percent {
-    width: 100%;
+    width: 70%;
 }
 
 .float-left-two {
@@ -162,9 +167,9 @@ a.btn.dark:focus {
     background-color: #f6f6f6 ;
 }
 
-.text-center {
+.container-text-center {
     text-align: center;
-    width: 65%;
-    margin: auto;
-    padding: 50px;
+    width: 100%;
+    margin-top: 9em;
+    padding: auto;
 }
