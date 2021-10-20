@@ -162,3 +162,9 @@ a.btn.dark:focus {
     background-color: #f6f6f6 ;
 }
 
+.text-center {
+    text-align: center;
+    width: 65%;
+    margin: auto;
+    padding: 50px;
+}
