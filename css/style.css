@@ -24,7 +24,8 @@ header {
 main {
     width: 100%;
     margin: auto;
-}
+    padding: 8em;
+ }
 
 nav {
     width: 80%;
